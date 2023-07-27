@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdio.h>
 #include "lists.h"
 
 /**
@@ -13,8 +13,9 @@ size_t list_len(const list_t *h)
 
 	while (h)
 	{
- 		n++;
- 		h = h->next;
- 	}
+		n++;
+		h = h->next;
+	}
+
 	return (n);
 }
