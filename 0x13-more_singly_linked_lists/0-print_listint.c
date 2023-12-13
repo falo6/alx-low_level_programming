@@ -14,11 +14,7 @@ size_t print_listint(const listint_t *h)
 		while (h)
 		{
 			printf("%d\n", h->n);
-<<<<<<< HEAD
-			num++
-=======
 			num++;
->>>>>>> c70b190852c173e20a3961f640bb1509733d6d46
 			h = h->next;
 		}
 	}
